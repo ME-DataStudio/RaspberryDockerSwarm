@@ -1,6 +1,6 @@
 # Raspberry Docker Swarm  
   
-**based on:** https://devdojo.com/bobbyiliev/how-to-install-docker-and-docker-compose-on-raspberry-pi  
+**based on:** https://medium.com/@henrique.menezes/building-a-raspberry-pi-cluster-with-docker-swarm-b457fb2f61a1  
   
 Create a docker swarm on four Raspberry Pi 4.  
   
@@ -16,6 +16,6 @@ Run `sudo raspi-config` and change password via `1 System settings - S3 password
 ### To Do  
 - boot to USB
 - static ip-address
-- install Docker
-- setup docker swarm
+- install Docker `curl -fsSL https://get.docker.com | sh`
+- setup docker swarm `sudo docker swarm init --advertise-addr 192.168.0.20`
 - setup datastax
