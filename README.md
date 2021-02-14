@@ -10,3 +10,10 @@ Change hostname: `sudo nano /etc/hostname` from 'raspberrypi' into e.g. 'pi1' or
 Do the same in `nano /etc/hosts`. Only change the name here not the local ip-address. Must be the same name as in `/etc/hostname`.
   
 Put Sd-card in your raspberry and power on your Pi.  
+  
+### To Do  
+- boot to USB
+- static ip-address
+- install Docker
+- setup docker swarm
+- setup datastax
