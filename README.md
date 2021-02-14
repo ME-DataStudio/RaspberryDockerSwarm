@@ -15,7 +15,7 @@ Run `sudo raspi-config` and change password via `1 System settings - S3 password
   
 ### To Do  
 - boot to USB
-- static ip-address
+- static ip-address `sudo nano /etc/dhcpcd.conf` find row with example static for eth0 (change to wlan0 if on wifi)  
 - install Docker `curl -fsSL https://get.docker.com | sh`
 - setup docker swarm `sudo docker swarm init --advertise-addr 192.168.0.20`
 - setup datastax
