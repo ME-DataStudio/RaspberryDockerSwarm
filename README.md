@@ -9,9 +9,9 @@ Find the ip-address of your Pi in the list of connetced devices in your router/a
 `ssh pi@192.168.1.21` for example. Default username is `pi`, default password `raspberry`.  
 Run `sudo raspi-config` and change password via `1 System settings - S3 password` and then change hostename `S4 hostname` into e.g. `pi1`.    
 
-## _Note: you can change hostname also like this:  
-     _`sudo nano /etc/hostname` from 'raspberrypi' into e.g. 'pi1' or 'pinode1' or anyting else you fins usefull.
-      _Do the same in `nano /etc/hosts`. Only change the name here not the local ip-address. Must be the same name as in `/etc/hostname`.
+## _Note: you can change hostname also like this:_  
+     `sudo nano /etc/hostname` from 'raspberrypi' into e.g. 'pi1' or 'pinode1' or anyting else you fins usefull.
+     Do the same in `nano /etc/hosts`. Only change the name here not the local ip-address. Must be the same name as in `/etc/hostname`.
   
 Put Sd-card in your raspberry and power on your Pi.  
   
